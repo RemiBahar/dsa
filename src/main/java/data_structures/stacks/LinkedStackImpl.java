@@ -37,7 +37,7 @@ public class LinkedStackImpl implements Stack{
      * @param value value to insert
      * @return value inserted
      */
-    private String insert(String value){
+    public String insert(String value){
         Node insertNode = new Node(value);
 
         if(head != null){

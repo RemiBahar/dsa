@@ -42,7 +42,7 @@ public class ArrayStackImpl implements Stack{
         front = front + 1; // move front of array to next position
 
         if(front >= values.length){
-            resize(values.length * 2;);
+            resize(values.length * 2);
         }
 
         this.values[front] = value; // add value to array
