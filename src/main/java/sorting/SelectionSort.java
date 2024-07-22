@@ -83,5 +83,7 @@ public class SelectionSort {
         List<String> unsortedListStr = Arrays.asList("a", "d", "c", "b");
         List<String> sortedListStr = sort(unsortedListStr);
         printAnswer(sortedListStr);
+
+        System.out.println("FInished");
     }
 }
